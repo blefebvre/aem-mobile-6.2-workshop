@@ -1,0 +1,30 @@
+@import "/etc/clientlibs/aemm-workshop/main/css/mixins.less";
+@import "/etc/clientlibs/aemm-workshop/main/css/variables.less";
+
+//namespace CSS since all css gets compiled into the application
+header.common-header {
+
+  //can also do em's, using px for workshop
+  height:45px;
+
+  &.accent-background-style {
+    .defaultAccentBackgroundColour;
+  }
+
+  &.default-background-style {
+    //or defined inline, usually stick with one or the other.
+    background-color:@defaultBackgroundColour;
+  }
+
+  h1.accent-font-style {
+    .defaultAccentFontColour;
+
+  }
+
+  h1.default-font-style {
+    //can define these from mixins
+    .defaultContentFontColour;
+  }
+
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    cq:designPath="/etc/designs/aemm-workshop"
+    jcr:description="AEMM Workshop issue template"
+    jcr:primaryType="cq:Template"
+    jcr:title="AEMM Workshop issue"
+    allowedPaths="[/]"
+    ranking="{Long}0">
+    <jcr:content
+        cq:allowedTemplates="[/apps/aemm-workshop/templates/.*]"
+        cq:designPath="/etc/designs/aemm-workshop"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="aemm-workshop/components/pages/issue"
+        dps-exportTemplate="/etc/contentsync/templates/aemm-workshop-sample"
+        dps-resourceType="dps:Project"
+        pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"/>
+</jcr:root>

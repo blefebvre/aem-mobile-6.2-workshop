@@ -1,0 +1,8 @@
+<!--/*
+  Renders the resource using the parsys
+*/-->
+
+<sly data-sly-use.body="body.js" data-sly-resource="${'content-parsys' @ resourceType='wcm/foundation/components/parsys'}"/>
+
+<div data-sly-resource="${'cloudservices' @ resourceType='cq/cloudserviceconfigs/components/servicecomponents'}" data-sly-unwrap></div>
+<sly data-sly-include="customfooterlibs.html" />

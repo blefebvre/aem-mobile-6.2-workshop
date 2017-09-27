@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/apps/aemm-workshop/templates/.*]"
+        cq:designPath="/etc/designs/aemm-workshop"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2017-09-27T11:13:55.299-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aemm-workshop/templates/issue"
+        jcr:description="Sample app for customer workshop"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEMM Workshop"
+        sling:resourceType="aemm-workshop/components/pages/issue"
+        dps-exportTemplate="/etc/contentsync/templates/aemm-workshop-sample"
+        dps-resourceType="dps:Project"
+        iconPath="/content/dam/aemm-workshop/logo.png"
+        pge-dashboard-config="/libs/mobileapps/dps/admin/content/dashboard/tiles/dpsdefault"
+        pge-type="[app-group,app-publish]"/>
+    <articles/>
+    <collections/>
+</jcr:root>

@@ -1,0 +1,8 @@
+<!--/*
+  Include custom libraries in page's footer
+*/-->
+
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    <sly data-sly-call="${clientLib.js @ categories='aemm-workshop.dependencies'}" />
+    <sly data-sly-call="${clientLib.js @ categories='aemm-workshop.main'}" />
+</sly>

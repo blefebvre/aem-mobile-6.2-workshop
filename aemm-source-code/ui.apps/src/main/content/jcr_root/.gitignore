@@ -1,0 +1,14 @@
+.vlt
+/.content.xml
+/apps/.content.xml
+/etc/.content.xml
+/etc/clientlibs/.content.xml
+/etc/designs/.content.xml
+/etc/contentsync/.content.xml
+/etc/contentsync/templates/.content.xml
+/content/.content.xml
+/content/mobileapps/.content.xml
+/content/dam/.content.xml
+cq5dam.thumbnail.*.png
+cq5dam.web.*.png
+_dam_thumbnail_*.png

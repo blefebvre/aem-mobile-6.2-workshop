@@ -1,0 +1,5 @@
+<section class="page-link" data-sly-use.pageLinker="${'page-linker.js' @ linkedPagePath=properties.linkedPagePath}">
+    <a x-cq-linkchecker="valid" href="${pageLinker.linkHref @ context='attribute'}" class="page-link--tappable">
+    	${properties.linkTitle || "Component placeholder text"}
+    </a>
+</section>

@@ -1,0 +1,1 @@
+java.exe -Xms2048m -Xmx2048m -jar cq-quickstart-6.2.0.jar -r author -p 4502 -nofork  -gui

@@ -1,0 +1,10 @@
+/* Place any component specific styles here */
+section.page-link {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+a.page-link--tappable {
+    padding: 1em;
+    display: block;
+}

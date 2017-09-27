@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Common Header Component"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <fontStyle
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/select"
+                        fieldLabel="Font Style"
+                        name="./fontStyle">
+                        <items jcr:primaryType="nt:unstructured">
+
+                            <default jcr:primaryType="nt:unstructured"
+                                     text="Default"
+                                     value="default-font-style"
+                            />
+                            <accent jcr:primaryType="nt:unstructured"
+                                    text="Accent"
+                                    value="accent-font-style"
+                            />
+
+                        </items>
+
+                    </fontStyle>
+                    <backgroundStyle
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/form/select"
+                            fieldLabel="Background Style"
+                            name="./backgroundStyle">
+                        <items jcr:primaryType="nt:unstructured">
+
+                            <default jcr:primaryType="nt:unstructured"
+                                    text="Default"
+                                     value="default-background-style"
+                            />
+                            <accent jcr:primaryType="nt:unstructured"
+                                     text="Accent"
+                                     value="accent-background-style"
+                            />
+
+                        </items>
+
+                    </backgroundStyle>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

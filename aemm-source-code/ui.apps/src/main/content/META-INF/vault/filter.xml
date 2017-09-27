@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aemm-workshop"/>
+
+    <filter root="/etc/clientlibs/aemm-workshop"/>
+
+    <filter root="/etc/designs/aemm-workshop" />
+
+    <filter root="/etc/contentsync/templates/aemm-workshop-sample" />
+
+    <filter root="/content/mobileapps/aemm-workshop-sample" />
+
+    <filter root="/content/dam/aemm-workshop/" />
+
+</workspaceFilter>

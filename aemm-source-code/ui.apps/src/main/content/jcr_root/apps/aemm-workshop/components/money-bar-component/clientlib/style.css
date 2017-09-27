@@ -1,0 +1,8 @@
+/* Place any money bar specific styles here */
+.money-bar {
+    padding: 1em;
+    background: green;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: white;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/aemm-workshop"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2016-09-28T12:09:52.965-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aemm-workshop/templates/basic-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Workshop App Home"
+        sling:resourceType="aemm-workshop/components/pages/basic-page"
+        dps-access="free"
+        dps-resourceType="dps:Article"
+        dps-title="Workshop App Home"
+        pge-type="app-content">
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/image"
+            fileReference="/content/dam/aemm-workshop/logo.png"
+            imageCrop=""
+            imageRotate="{Long}0"/>
+        <content-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:created="{Date}2016-09-27T16:34:34.919-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-09-27T16:34:52.532-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Some example text...&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2016-09-27T16:34:58.532-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-09-27T16:35:05.012-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/aemm-workshop/logo.png"/>
+            <basic_component
+                jcr:created="{Date}2016-09-27T19:45:02.071-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-09-28T12:09:52.962-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemm-workshop/components/basic-component"
+                linkedPagePath="/content/mobileapps/aemm-workshop-sample/articles/secondPage"
+                linkTitle="Go To Page 2"/>
+        </content-parsys>
+    </jcr:content>
+</jcr:root>
